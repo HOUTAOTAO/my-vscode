@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>new document</title>
+    <meta charset="utf-8">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script>
+    alert("页面开始加载...at:"+new Date().toLocaleTimeString())
+    </script>
+    <script>
+    window.onload=function(){
+        alert("load finish"+new Date().toLocaleDateString())
+    }
+    $(()=>{
+        alert("dom load finish"+new Date().toDateString())
+    })
+    </script>
+</head>
+<body>
+<h1>页面加载完成事件</h1>
+<p>welcome to my first web page</p>
+</body>
+</html>
